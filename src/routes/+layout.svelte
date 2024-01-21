@@ -4,24 +4,21 @@
 	import "./styles.css";
 	import { page } from "$app/stores";
 	import { bfReadable } from "../stores/bfStore";
-	import { sc_lc1_1Readable } from "../stores/scStore";
 	import { exReadable } from "../stores/exStore";
 	import { tmReadable } from "../stores/tmStore";
+	import { getFirstMember } from "../stores/tmStore";
+	import { getService } from "../stores/scStore";
+    import HeroPhoto from "../components/HeroPhoto.svelte";
+    import Hero from "../components/Hero.svelte";
+    import Grid2_2 from "../components/Grid2_2.svelte";
+    import HeaderInformation from "../components/HeaderInformation.svelte";
+	import { getExperiences } from "../stores/exStore";
+	let iACExperience = getExperiences();
 
-	let iAAMembers_obj;
-	let pAAMembers_void = tmReadable.subscribe((data) => {
-		iAAMembers_obj = data;
-	});
-
-	let pAATeamName_txt = iAAMembers_obj.tm1;
-	let pAATeamLightDescription_txt = iAAMembers_obj.tm2;
-	let pAATeamExtenseDescription_txt = iAAMembers_obj.tm3;
-
-	let pAAMembersByOrder_arr = iAAMembers_obj.tm_mb;
-	let pAAFirstMember = pAAMembersByOrder_arr[0];
-
-
-
+	let iAAFirstMember = getFirstMember().pAAFirstMember;
+	let pABTitle = getService().pABTitle;
+	let pABLightDescription = getService().pABLightDescription;
+	let pABExtenseDescription = getService().pABExtenseDescription;
 </script>
 
 <svelte:head>
@@ -1156,7 +1153,7 @@ why-intellimize"
 </svelte:head>
 
 <Header />
-
+<HeroPhoto></HeroPhoto>
 <slot />
 
 

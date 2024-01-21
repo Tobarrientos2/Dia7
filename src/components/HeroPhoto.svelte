@@ -1,3 +1,11 @@
+<script>
+    import { getFirstMember } from "../stores/tmStore";
+
+    let pAAFirstMember_obj = getFirstMember().pAAFirstMember;
+    let pAANameOfMember = pAAFirstMember_obj.tm_mb1
+    console.log(pAAFirstMember_obj);
+</script>
+
 <div class="section-with-padding relative">
     <div
         class="shopza green-border shopza-test"
@@ -7,20 +15,7 @@
             class="homepage-video w-embed"
             data-intellimize-exp-417214938="true"
         >
-            <video
-                playsinline=""
-                autoplay=""
-                muted=""
-                loop=""
-                preload="auto"
-                style=" width:100%;  height:auto;"
-            >
-                <source
-                    src="https://cdn.intellimize.com/videos/Website-Hero-Shopza-cropped.mp4"
-                    type="video/mp4"
-                />
-                Your browser does not support the HTML5 video tag.
-            </video>
+           <img src="https://media.discordapp.net/attachments/1196897581981253786/1198467362026963035/dia7hdy.png?ex=65bf02b5&is=65ac8db5&hm=7eed0b827e22d0747c4c9437c01b33dafb9976b6770f580cd34de33f360e07a0&=&format=webp&quality=lossless&width=1714&height=1138" alt="">
         </div>
     </div>
     <div

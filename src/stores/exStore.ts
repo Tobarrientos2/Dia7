@@ -1,25 +1,24 @@
 import { readable } from "svelte/store";
-import {ex, cl} from "../data/ex.json"
+import ex from "../data/ex.json"
 
-//Obtener Servicios desde el JSON
-const data = { ex } || {};
+
 //Crear Readable
 export const exReadable = readable({}, (set) => {
-    set(data);
-});
-export const exUnsubscribe = exReadable.subscribe(() => {
-
-} );
-
-
-//Obtener Servicios desde el JSON
-const clients = {cl} || {};
-//Crear Readable
-export const clReadable = readable({}, (set) => {
-    set(clients);
+    set(ex);
 });
 
 
-export const clUnsubscribe = exReadable.subscribe(() => {
+export function getExperiences(){
+    let iACExperiences_arr;
 
-} );
+    let iACExperiences = exReadable.subscribe((data) => {
+        iACExperiences_arr =  data[0];
+    });
+    console.log(iACExperiences_arr);
+    // let pACTitle_txt = pACFirstExperience_obj.ex_1;
+    // let pACDLightDescription_txt = pACFirstExperience_obj.ex_2;
+return 
+};
+
+
+
