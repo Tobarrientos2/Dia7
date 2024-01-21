@@ -1,197 +1,26 @@
 {
   "sc_lc1": {
-    "sc_lc1_1": [
-      { "sc_img": "",
-        "sc_slug": "",
-        "sc_1": "",
-        "sc_2": "",
-        "sc_3": "",
-        "sc_dt": [
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          },
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          }
-        ]
-      },
-      { "sc_img": "",
-        "sc_slug": "",
-        "sc_1": "",
-        "sc_2": "",
-        "sc_3": "",
-        "sc_dt": [
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          },
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          }
-        ]
-        
-      },
-      { "sc_img": "",
-        "sc_slug": "",
-        "sc_1": "",
-        "sc_2": "",
-        "sc_3": "",
-        "sc_dt": [
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          },
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          }
-        ]
-        
-      },
-      {"sc_img": "",
-        "sc_slug": "",
-        "sc_1": "",
-        "sc_2": "",
-        "sc_3": "",
-        "sc_dt": [
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          },
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          }
-        ]
-        
-      },
-      {"sc_img": "",
-        "sc_slug": "",
-        "sc_1": "",
-        "sc_2": "",
-        "sc_3": "",
-        "sc_dt": [
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          },
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          }
-        ]
-        
-      },
-      { "sc_img": "",
-        "sc_slug": "",
-        "sc_1": "",
-        "sc_2": "",
-        "sc_3": "",
-        "sc_dt": [
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          },
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          }
-        ]
-        
-      }
-                        
-            
-    ]
+    "sc_lc1_1": {
+      "sc_img": "",
+      "sc_slug": "",
+      "sc_1": "Extracción automática de humedad",
+      "sc_2": "El producto regula la humedad en el invernadero para mantenerla dentro de límites saludables para las plantas.",
+      "sc_3": "Control automático de la humedad en invernaderos",
+      "sc_dt": [
+        "Automatización: el producto requiere poca intervención manual",
+        "Salud de las plantas: previene enfermedades relacionadas con el exceso de humedad y promueve su crecimiento y maduración"
+      ]
+    }
   },
   "sc_lc2": {
-    "sc_lc2_1": [
-      {"sc_img": "",
-        "sc_slug": "",
-        "sc_1": "",
-        "sc_2": "",
-        "sc_3": "",
-        "sc_dt": [
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          },
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          }
-        ]
-      },
-      { "sc_img": "",
-        "sc_slug": "",
-        "sc_1": "",
-        "sc_2": "",
-        "sc_3": "",
-        "sc_dt": [
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          },
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          }
-        ]        
-      },
-      { "sc_img": "",
-        "sc_slug": "",
-        "sc_1": "",
-        "sc_2": "",
-        "sc_3": "",
-        "sc_dt": [
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          },
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          }
-        ]
-        
-      },
-      { "sc_img": "",
-        "sc_slug": "",
-        "sc_1": "",
-        "sc_2": "",
-        "sc_3": "",
-        "sc_dt": [
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          },
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          }
-        ]
-        
-      },
-      {"sc_img": "",
-        "sc_slug": "",
-        "sc_1": "",
-        "sc_2": "",
-        "sc_3": "",
-        "sc_dt": [
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          },
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          }
-        ]
-        
-      }
-                        
+    "sc_img": "",
+    "sc_slug": "",
+    "sc_1": "Generación de agua",
+    "sc_2": "El producto convierte la humedad extraída en agua, que puede ser utilizada para riego.",
+    "sc_3": "Conversión de humedad en agua para riego",
+    "sc_dt": [
+      "Eficiencia: el producto es más eficiente que las soluciones existentes",
+      "Conservación del agua: al convertir la humedad en agua para riego, el producto contribuye a la conservación del agua"
     ]
   }
 }

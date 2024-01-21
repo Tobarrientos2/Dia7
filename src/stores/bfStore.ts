@@ -4,8 +4,14 @@ import { bf } from "../data/bf.json"
 //Crear Readable
 export const bfReadable = readable({}, (set) => {
     set(bf)
-});
-
-export const bfUnsubscribe = bfReadable.subscribe(() => {
 
 });
+
+let iADBeneficios_arr;
+export const bfUnsubscribe = bfReadable.subscribe((data) => {
+    iADBeneficios_arr = data;
+});
+
+
+
+console.log(iADBeneficios_arr);

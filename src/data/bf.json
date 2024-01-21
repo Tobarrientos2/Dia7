@@ -1,47 +1,8 @@
 {
   "bf": {
-    "bf_1": "",
-    "bf_2": "",
-    "bf_3": "",
-    "bf_dt": [
-      { "bf_dt_img": "",
-        "bf_dt_1": "",
-        "bf_dt_2": ""
-      },
-      {"bf_dt_img": "",
-        "bf_dt_1": "",
-        "bf_dt_2": ""
-      },
-      {"bf_dt_img": "",
-        "bf_dt_1": "",
-        "bf_dt_2": ""
-      },
-      {"bf_dt_img": "",
-        "bf_dt_1": "",
-        "bf_dt_2": ""
-      },
-      {"bf_dt_img": "",
-        "bf_dt_1": "",
-        "bf_dt_2": ""
-      },
-      {"bf_dt_img": "",
-        "bf_dt_1": "",
-        "bf_dt_2": ""
-      }
-    ],
-    "bf_co": [
-      {
-        "bf_co1": "",
-        "bf_co2": ""
-      },
-      {
-        "bf_co1": "",
-        "bf_co2": ""
-      },
-      {
-        "bf_co1": "",
-        "bf_co2": ""
-      }
-    ]
+    "bf_1": "La automatización del control de humedad es uno de los beneficios principales del producto. Esto significa que requiere poca intervención manual.",
+    "bf_2": "Además de ser eficiente en comparación con otros métodos similares, como los humidificadores y la ventilación por área, el producto también convierte la humedad en agua utilizable, lo que contribuye a la conservación del agua.",
+    "bf_3": "Este producto para invernaderos no solo se preocupa por las plantas, manteniendo la humedad en un rango saludable, sino que también se preocupa por el planeta, al reutilizar la humedad en forma de agua de riego.",
+    "bf_dt": "El beneficio de una solución práctica y ecológica para manejar la humedad en los invernaderos, promoviendo la salud de las plantas y conservando recursos."
   }
 }

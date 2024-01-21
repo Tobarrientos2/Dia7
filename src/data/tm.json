@@ -1,43 +1,11 @@
 {
-  "tm1": "",
-  "tm2": "",
-  "tm3": "",
-  "tm_mb": [
-    {
-      "tm_mb_img": "",
-      "tm_mb1": "",
-      "tm_mb2": "",
-      "tm_mb3": ""
-    },
-    {
-      "tm_mb_img": "",
-      "tm_mb1": "",
-      "tm_mb2": "",
-      "tm_mb3": ""
-    },
-    {
-      "tm_mb_img": "",
-      "tm_mb1": "",
-      "tm_mb2": "",
-      "tm_mb3": ""
-    },
-    {
-      "tm_mb_img": "",
-      "tm_mb1": "",
-      "tm_mb2": "",
-      "tm_mb3": "" 
-    },
-    {
-      "tm_mb_img": "",
-      "tm_mb1": "",
-      "tm_mb2": "",
-      "tm_mb3": ""
-    },
-    {
-      "tm_mb_img": "",
-      "tm_mb1": "",
-      "tm_mb2": "",
-      "tm_mb3": ""
-    }
-  ]
+  "tm1": "Inventor anónimo",
+  "tm2": "Innovación en el control de la humedad para los invernaderos",
+  "tm3": "Desarrollo de una solución eficaz y sustentable para el control de la humedad en los invernaderos que genera agua para riego",
+  "tm_mb": [{
+    "tm_mb_img": "",
+    "tm_mb1": "Inventor anónimo",
+    "tm_mb2": "Creador de una solución para regular la humedad en invernaderos",
+    "tm_mb3": "Este inventor ha desarrollado un producto innovador que controla automáticamente la humedad en los invernaderos y la convierte en agua para riego. Esto mejora la salud de las plantas, aumenta la eficiencia y contribuye a la conservación del agua. El inventor fue guiado y motivado por las consultas con tres agrónomos distintos."
+  }]
 }
