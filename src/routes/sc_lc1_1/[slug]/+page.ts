@@ -63,7 +63,6 @@ export const load: PageLoad = ({ params, url }) => {
   let sc_dt1 = sc_dt.map(item => item?.sc_dt1 || '').join(0);
   let sc_dt2 = sc_dt.map(item => item?.sc_dt2 || '').join(0);
   
-  console.log(sc_dt)
 
   return {
     page:{ 
