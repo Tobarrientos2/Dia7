@@ -15,5 +15,6 @@ aria-label="home"
     height="25"
     alt=""
     class="contain-image"
+    style="opacity: 0"
 /></a
 >

@@ -13,7 +13,9 @@
     import Grid2_2 from "../components/Grid2_2.svelte";
     import HeaderInformation from "../components/HeaderInformation.svelte";
 	import { getExperiences } from "../stores/exStore";
-	let iACExperience = getExperiences();
+    import Grid2 from "../components/Grid2.svelte";
+	let pACFirstExperience_obj = getExperiences().pACFirstExperience_obj;
+	let b = getExperiences();
 
 	let iAAFirstMember = getFirstMember().pAAFirstMember;
 	let pABTitle = getService().pABTitle;
@@ -22,7 +24,7 @@
 </script>
 
 <svelte:head>
-	<title>{$page.data.page.path || "Inicio"} |</title>
+	<title>{$page.data.page.path ||  "Inicio"} |</title>
 	<meta content="width=device-width, initial-scale=1" name="viewport" />
 	<style>
 			.wf-force-outline-none[tabindex="-1"]:focus {
@@ -36,7 +38,8 @@
 			style="display:none"
 			src="https://117123894.intellimizeio.com/storage.html"
 			referrerpolicy="strict-origin-when-cross-origin"
-		></iframe><meta charset="utf-8" /><title>1 unread message</title><meta
+		></iframe>
+		<!-- <meta charset="utf-8" /><title>1 unread message</title><meta
 			content="Intellimize is an AI-driven website personalization and conversion rate optimization platform that enables marketers to convert more traffic."
 			name="description"
 		/><meta
@@ -60,7 +63,8 @@
 		/><meta property="og:type" content="website" /><meta
 			content="summary_large_image"
 			name="twitter:card"
-		/><meta
+		/> -->
+		<meta
 			content="width=device-width, initial-scale=1"
 			name="viewport"
 		/><link
@@ -1153,7 +1157,9 @@ why-intellimize"
 </svelte:head>
 
 <Header />
+<Hero></Hero>
 <HeroPhoto></HeroPhoto>
+<Grid2></Grid2>
 <slot />
 
 

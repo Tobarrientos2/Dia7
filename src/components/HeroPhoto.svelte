@@ -1,9 +1,14 @@
 <script>
     import { getFirstMember } from "../stores/tmStore";
+    import { getExperiences } from "../stores/exStore";
 
     let pAAFirstMember_obj = getFirstMember().pAAFirstMember;
-    let pAANameOfMember = pAAFirstMember_obj.tm_mb1
-    console.log(pAAFirstMember_obj);
+    let pAANameOfMember = pAAFirstMember_obj.tm_mb1;
+
+    let pACFirstExperience = getExperiences().pACFirstExperience_obj;
+    let pACTitleOfExperience = pACFirstExperience.ex_1;
+    let pACDescriptionLight = pACFirstExperience.ex_2;
+
 </script>
 
 <div class="section-with-padding relative">
@@ -29,22 +34,15 @@
                 class="heading-3 padding-right-50p"
                 data-intellimize-exp-417214938="true"
             >
-                Leading brands drive results with Intellimize
+                {pACTitleOfExperience}
             </h2>
             <p
                 class="p-lg font-manrope"
                 data-intellimize-exp-417214938="true"
             >
-                Companies like Drift, Mercari, and Dermalogica
-                convert more while their competition is waiting
-                for stat sig.
+                {pACDescriptionLight}
             </p>
-            <a
-                href="https://www.intellimize.com/resources?type=Customer+Story"
-                class="cta-button button-secondary-new margin-top-l w-button"
-                data-intellimize-exp-417214938="true"
-                >See Stories</a
-            >
+           
         </div>
     </div>
 </div>

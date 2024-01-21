@@ -4,7 +4,7 @@ import ex from "../data/ex.json"
 
 //Crear Readable
 export const exReadable = readable({}, (set) => {
-    set(ex);
+    set(ex.ex);
 });
 
 
@@ -12,12 +12,15 @@ export function getExperiences(){
     let iACExperiences_arr;
 
     let iACExperiences = exReadable.subscribe((data) => {
-        iACExperiences_arr =  data[0];
+        iACExperiences_arr =  data;
     });
-    console.log(iACExperiences_arr);
-    // let pACTitle_txt = pACFirstExperience_obj.ex_1;
-    // let pACDLightDescription_txt = pACFirstExperience_obj.ex_2;
-return 
+    let pACFirstExperience_obj = iACExperiences_arr[0];
+    let pACTitle_txt = pACFirstExperience_obj.ex_1;
+    let pACDLightDescription_txt = pACFirstExperience_obj.ex_2;
+    return {
+        pACFirstExperience_obj
+
+} 
 };
 
 

@@ -5,5 +5,3 @@ const tnl = new TNL(TNL_API_KEY);
 
 const prompt = 'a cat playing the piano';
 const response = await tnl.imagine(prompt);
-
-console.log(response);

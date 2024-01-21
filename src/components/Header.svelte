@@ -34,8 +34,8 @@ class="nav-bar w-nav"
                 data-intellimize-exp-417211278="true"
             >
             <!-- Here goes a dropdown -->
-        <Logo></Logo>  
-        <DropDown></DropDown>
+        <Logo></Logo>
+    
                 <a
                     href="/demo"
                     class="underline-text-link white nav-bar book-demo-hidden-desktop new-mobile-button"

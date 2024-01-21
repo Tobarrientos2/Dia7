@@ -1,3 +1,16 @@
+<script>
+    import { getStores } from "$app/stores";
+    import { getExperiences } from "../stores/exStore";
+    import { getService } from "../stores/scStore";
+
+    let pACFirstExperience_obj = getExperiences().pACFirstExperience_obj;
+    let pACTitleOfExperience_txt = pACFirstExperience_obj.ex_1;
+
+    let pABTitle = getService().pABTitle;
+    let pABLightDescription = getService().pABLightDescription;
+    let pABExtenseDescription = getService().pABExtenseDescription;
+
+</script>
 <div class="section hero-section-2023 rebrand-homepage">
     <div class="container-1200 top-bottom-padding flex-left">
         <div
@@ -9,21 +22,15 @@
                 class="heading white"
                 data-intellimize-exp-417214938="true"
             >
-                Drive 1:1 personalization at every touchpoint
+                {pABTitle}
             </h1>
             <p
                 class="p-lg white p-hero font-manrope"
                 data-intellimize-exp-417214938="true"
             >
-                Make every marketing dollar count with AI
-                website optimization.
+                {pABLightDescription}
             </p>
-            <a
-                href="/demo"
-                class="cta-button outline-button-primary-new margin-top-l w-button"
-                data-intellimize-exp-417214938="true"
-                >Book a Demo</a
-            >
+          
         </div>
     </div>
 </div>
